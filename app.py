@@ -97,7 +97,7 @@ st.write("")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.markdown("### 🎬 推し（公式アングル）")
+    st.markdown("### 🎬 じんじんの写真")
     if os.path.exists(selected_place["oshi_img"]):
         oshi_img_corrected = open_corrected_image(selected_place["oshi_img"])
         st.image(oshi_img_corrected, use_container_width=True)
